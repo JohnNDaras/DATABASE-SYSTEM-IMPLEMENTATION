@@ -17,12 +17,12 @@ Implemented Record Structure
 To support our database operations, we define a record structure as follows:
 
 
-typedef struct {
+typedef struct { <br>
     int id; <br>
-    char name[15];
-    char surname[25];
-    char address[50];
-} Record;
+    char name[15]; <br>
+    char surname[25]; <br>
+    char address[50]; <br>
+} Record; <br>
 
 **Block File (BF) Functions**
 
