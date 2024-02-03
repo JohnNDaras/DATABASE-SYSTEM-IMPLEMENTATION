@@ -15,13 +15,13 @@ Run:
 This project delves into the intricacies of Database Systems, specifically focusing on block-level and record-level management. The implementation includes functions for handling files based on heap file organization and static hashing.
 Record Structure
 
-The record structure used for both heap files and static hashing files is defined as follows:
+To support our database operations, we define a record structure as follows:
 
-   typedef struct{
-      int id;
-      char name[15];
-      char surname[25];
-      char address[50];
+    typedef struct {
+        int id;
+        char name[15];
+        char surname[25];
+        char address[50];
     } Record;
 
 **Block File Functions (BF)**
