@@ -35,7 +35,7 @@ We leverage the BF library functions to manage the block-level operations. These
 Our implementation of heap file management includes the following functions:
 
     HP_CreateFile: Creates and appropriately initializes an empty heap file.
-    HP_OpenFile: Opens a heap file, reads information from the first block, and updates a structure with file details.
+      HP_OpenFile: Opens a heap file, reads information from the first block, and updates a structure with file details.
     HP_CloseFile: Responsible for closing a heap file and releasing associated memory.
     HP_InsertEntry: Inserts a record into the heap file.
     HP_DeleteEntry: Deletes a record from the heap file.
