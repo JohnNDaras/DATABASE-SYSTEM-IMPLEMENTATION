@@ -27,7 +27,15 @@ To support our database operations, we define a record structure as follows:
 
 We leverage the BF library functions to manage the block-level operations. These functions encompass initialization, file creation, opening, closing, block allocation, and read/write operations. 
 
-
+    BF_Init(): Initializes the BF level.
+    BF_CreateFile(char* filename): Creates a file with the given filename, deleting the old file if it exists. Returns 0 on success, a negative number on failure.
+    BF_OpenFile(char* filename): Opens an existing block file with the given filename. Returns file identifier on success, a negative number on failure.
+    BF_CloseFile(int fileDesc): Closes the open file with the file identifier fileDesc. Returns 0 on success, a negative number on failure.
+    BF_GetBlockCounter(int fileDesc): Returns the number of available blocks for the open file with file identifier fileDesc. Returns a negative number on failure.
+    BF_AllocateBlock(int fileDesc): Allocates a new block for the file with file identifier fileDesc at the end. Returns 0 on success, a negative number on failure.
+    BF_ReadBlock(int fileDesc, int blockNumber, void** block): Reads the block with blockNumber of the open file with file identifier fileDesc. Returns 0 on success, a negative number on failure.
+    BF_WriteBlock(int fileDesc, int blockNumber): Writes the allocated block with blockNumber to the disk of the open file with file identifier fileDesc. Returns 0 on success, a negative number on failure.
+    BF_PrintError(char* message): Prints error messages to stderr followed by a description of the most recent error.
 
 **Heap File (HP) Functions**
 
