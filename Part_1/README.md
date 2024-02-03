@@ -1,4 +1,4 @@
-**Block-Level Database Management 1**
+<p align = center>**Block-Level Database Management 1**
 
 Compile:
 
