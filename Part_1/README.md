@@ -9,7 +9,7 @@ Run:
     make run
 
 
-Overview
+**Overview**
 
 In this project, we implement key functionalities for a Database Management System (DBMS) to efficiently manage files at both the block and record levels. Our primary focus is on understanding the intricacies of heap file organization and static hashing (Hash Table) to enhance the overall performance of a DBMS, particularly through the utilization of indexes on records.
 Implemented Record Structure
