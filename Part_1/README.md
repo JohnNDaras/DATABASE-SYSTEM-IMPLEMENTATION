@@ -52,9 +52,7 @@ We implement hash table functions to manage static hashing files:
     HT_CloseIndex: Closes a hash file and releases associated memory.
     HT_InsertEntry: Inserts a record into the hash file.
     HT_DeleteEntry: Deletes a record from the hash file.
-    HT_GetAllEntries: Prints all records in the hash file with a specified key field value.
-
-\\
+    HT_GetAllEntries: Prints all records in the hash file with a specified key field value.\\
 
 **Hashing Statistics**
 
