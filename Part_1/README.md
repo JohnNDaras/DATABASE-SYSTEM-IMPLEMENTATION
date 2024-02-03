@@ -59,9 +59,9 @@ We implement hash table functions to manage static hashing files:
 To evaluate our implemented hashing functions, we introduce the HashStatistics function. This function reads a hash file and prints detailed statistics, including the number of blocks, minimum/average/maximum records per bucket, average blocks per bucket, and overflow block information.
 
 We include a comprehensive main function for functionality testing. This function:
-    Creates a heap file or a static hashing file.
-    Inserts indicative records (from provided files).
-    Searches for a subset of records based on criteria regarding the key field.
+* Creates a heap file or a static hashing file.
+* Inserts indicative records (from provided files).
+* Searches for a subset of records based on criteria regarding the key field.
 
 
 **Conclusion**
