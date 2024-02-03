@@ -40,7 +40,7 @@ The block file functions, encapsulated in BF.h, provide essential block-level ma
 
 **HP Functions (Heap File)**
 
-For heap files, I've implemented the following functions:
+For heap files, we implement the following functions:
 
     HP_CreateFile(char *fileName, char attrType, char* attrName, int attrLength): Creates and initializes an empty heap file.
     HP_OpenFile(char *fileName): Opens a heap file and reads file information.
@@ -62,7 +62,7 @@ The hash table (HT) functions include:
 
 **SHT Functions (Secondary Hash Table)**
 
-For creating and managing a secondary static hash index on the surname attribute, I've implemented the following functions:
+For creating and managing a secondary static hash index on the surname attribute, we implemented the following functions:
 
     SHT_CreateSecondaryIndex(char *sfileName, char *attrName, int attrLength, int buckets, char *fileName): Creates and initializes a secondary hash file.
     SHT_OpenSecondaryIndex(char *sfileName): Opens a secondary hash file and reads file information.
@@ -72,7 +72,7 @@ For creating and managing a secondary static hash index on the surname attribute
 
 **Hashing Statistics**
 
-To evaluate the implemented hash functions, I've included the HashStatistics(char* filename) function. This function reads a file and prints statistics such as the number of blocks, minimum/average/maximum records per bucket, average blocks per bucket, and information on buckets with overflow blocks.
+To evaluate the implemented hash functions, we include the HashStatistics(char* filename) function. This function reads a file and prints statistics such as the number of blocks, minimum/average/maximum records per bucket, average blocks per bucket, and information on buckets with overflow blocks.
 Main Testing Function
 
 For functionality testing, a main testing function is provided. It covers the following scenarios:
