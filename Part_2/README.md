@@ -17,7 +17,6 @@ Record Structure
 
 The record structure used for both heap files and static hashing files is defined as follows:
 
-
    typedef struct{
       int id;
       char name[15];
