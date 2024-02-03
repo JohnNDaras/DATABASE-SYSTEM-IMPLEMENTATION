@@ -26,9 +26,9 @@ typedef struct {
 
 **Block File (BF) Functions**
 
-We leverage the BF library functions to manage the block-level operations. These functions encompass initialization, file creation, opening, closing, block allocation, and read/write operations.
+We leverage the BF library functions to manage the block-level operations. These functions encompass initialization, file creation, opening, closing, block allocation, and read/write operations. \\
 
-\\
+
 
 **Heap File (HP) Functions**
 
