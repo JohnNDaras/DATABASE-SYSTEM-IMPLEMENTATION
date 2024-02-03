@@ -18,7 +18,7 @@ To support our database operations, we define a record structure as follows:
 
 
 typedef struct { <br>
-    int id; <br>
+    <li> int id; <br>
     char name[15]; <br>
     char surname[25]; <br>
     char address[50]; <br>
